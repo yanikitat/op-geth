@@ -24,12 +24,12 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/tests"
 	"github.com/urfave/cli/v2"
+	"github.com/yanikitat/op-geth/core"
+	"github.com/yanikitat/op-geth/core/rawdb"
+	"github.com/yanikitat/op-geth/core/vm"
+	"github.com/yanikitat/op-geth/eth/tracers/logger"
+	"github.com/yanikitat/op-geth/tests"
 )
 
 var RunFlag = &cli.StringFlag{

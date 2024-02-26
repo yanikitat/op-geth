@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/trie/testutil"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/core/rawdb"
+	"github.com/yanikitat/op-geth/trie/testutil"
+	"github.com/yanikitat/op-geth/trie/trienode"
 )
 
 func emptyLayer() *diskLayer {

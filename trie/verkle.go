@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/utils"
 	"github.com/gballet/go-verkle"
 	"github.com/holiman/uint256"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/core/types"
+	"github.com/yanikitat/op-geth/ethdb"
+	"github.com/yanikitat/op-geth/trie/trienode"
+	"github.com/yanikitat/op-geth/trie/utils"
 )
 
 var (

@@ -28,10 +28,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/urfave/cli/v2"
+	"github.com/yanikitat/op-geth/p2p/enode"
+	"github.com/yanikitat/op-geth/p2p/enr"
+	"github.com/yanikitat/op-geth/rlp"
 )
 
 var fileFlag = &cli.StringFlag{Name: "file"}

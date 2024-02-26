@@ -28,12 +28,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover/v5wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/yanikitat/op-geth/common/mclock"
+	"github.com/yanikitat/op-geth/log"
+	"github.com/yanikitat/op-geth/p2p/discover/v5wire"
+	"github.com/yanikitat/op-geth/p2p/enode"
+	"github.com/yanikitat/op-geth/p2p/enr"
+	"github.com/yanikitat/op-geth/p2p/netutil"
 )
 
 const (

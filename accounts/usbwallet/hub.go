@@ -25,10 +25,10 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/karalabe/usb"
+	"github.com/yanikitat/op-geth/accounts"
+	"github.com/yanikitat/op-geth/event"
+	"github.com/yanikitat/op-geth/log"
 )
 
 // LedgerScheme is the protocol scheme prefixing account and wallet URLs.

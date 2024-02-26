@@ -25,12 +25,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/common/hexutil"
+	"github.com/yanikitat/op-geth/core/types"
+	"github.com/yanikitat/op-geth/crypto"
+	"github.com/yanikitat/op-geth/params"
+	"github.com/yanikitat/op-geth/rlp"
 )
 
 // txWithKey is a helper-struct, to allow us to use the types.Transaction along with

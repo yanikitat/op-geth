@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/signer/core/apitypes"
 )
 
 // ValidateTransaction does a number of checks on the supplied transaction, and

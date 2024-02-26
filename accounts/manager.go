@@ -21,8 +21,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/event"
 )
 
 // managerSubBufferSize determines how many incoming wallet events

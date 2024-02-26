@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/yanikitat/op-geth/common"
 	"golang.org/x/exp/slices"
 )
 

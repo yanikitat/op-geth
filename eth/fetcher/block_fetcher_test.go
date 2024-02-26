@@ -24,15 +24,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/consensus/ethash"
+	"github.com/yanikitat/op-geth/core"
+	"github.com/yanikitat/op-geth/core/rawdb"
+	"github.com/yanikitat/op-geth/core/types"
+	"github.com/yanikitat/op-geth/crypto"
+	"github.com/yanikitat/op-geth/eth/protocols/eth"
+	"github.com/yanikitat/op-geth/params"
+	"github.com/yanikitat/op-geth/trie"
 )
 
 var (

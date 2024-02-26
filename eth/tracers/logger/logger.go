@@ -25,13 +25,13 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/common/hexutil"
+	"github.com/yanikitat/op-geth/common/math"
+	"github.com/yanikitat/op-geth/core/types"
+	"github.com/yanikitat/op-geth/core/vm"
+	"github.com/yanikitat/op-geth/params"
 )
 
 // Storage represents a contract's storage.

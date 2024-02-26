@@ -28,8 +28,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/urfave/cli/v2"
+	"github.com/yanikitat/op-geth/common/math"
 )
 
 // DirectoryString is custom type which is registered in the flags library which cli uses for

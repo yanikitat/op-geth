@@ -53,10 +53,10 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/signify"
-	"github.com/ethereum/go-ethereum/internal/build"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/crypto/signify"
+	"github.com/yanikitat/op-geth/internal/build"
+	"github.com/yanikitat/op-geth/params"
 )
 
 var (
@@ -288,7 +288,7 @@ func doTest(cmdline []string) {
 		coverage = flag.Bool("coverage", false, "Whether to record code coverage")
 		verbose  = flag.Bool("v", false, "Whether to log verbosely")
 		race     = flag.Bool("race", false, "Execute the race detector")
-		short     = flag.Bool("short", false, "Pass the 'short'-flag to go test")
+		short    = flag.Bool("short", false, "Pass the 'short'-flag to go test")
 		cachedir = flag.String("cachedir", "./build/cache", "directory for caching downloads")
 	)
 	flag.CommandLine.Parse(cmdline)

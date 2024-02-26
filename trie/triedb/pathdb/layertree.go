@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/core/types"
+	"github.com/yanikitat/op-geth/trie/trienode"
+	"github.com/yanikitat/op-geth/trie/triestate"
 )
 
 // layerTree is a group of state layers identified by the state root.

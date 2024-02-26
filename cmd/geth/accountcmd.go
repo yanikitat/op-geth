@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/urfave/cli/v2"
+	"github.com/yanikitat/op-geth/accounts"
+	"github.com/yanikitat/op-geth/accounts/keystore"
+	"github.com/yanikitat/op-geth/cmd/utils"
+	"github.com/yanikitat/op-geth/crypto"
+	"github.com/yanikitat/op-geth/log"
 )
 
 var (

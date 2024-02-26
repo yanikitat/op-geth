@@ -19,10 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/yanikitat/op-geth/accounts"
+	"github.com/yanikitat/op-geth/core/types"
+	"github.com/yanikitat/op-geth/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

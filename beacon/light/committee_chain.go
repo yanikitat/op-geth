@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/yanikitat/op-geth/beacon/params"
+	"github.com/yanikitat/op-geth/beacon/types"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/common/lru"
+	"github.com/yanikitat/op-geth/common/mclock"
+	"github.com/yanikitat/op-geth/core/rawdb"
+	"github.com/yanikitat/op-geth/ethdb"
+	"github.com/yanikitat/op-geth/log"
 )
 
 var (

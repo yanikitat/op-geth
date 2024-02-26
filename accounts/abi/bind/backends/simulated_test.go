@@ -27,14 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/yanikitat/op-geth/accounts/abi"
+	"github.com/yanikitat/op-geth/accounts/abi/bind"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/core"
+	"github.com/yanikitat/op-geth/core/types"
+	"github.com/yanikitat/op-geth/crypto"
+	"github.com/yanikitat/op-geth/params"
 )
 
 func TestSimulatedBackend(t *testing.T) {

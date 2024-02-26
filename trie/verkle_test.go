@@ -22,11 +22,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/trie/triedb/pathdb"
-	"github.com/ethereum/go-ethereum/trie/utils"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/core/rawdb"
+	"github.com/yanikitat/op-geth/core/types"
+	"github.com/yanikitat/op-geth/trie/triedb/pathdb"
+	"github.com/yanikitat/op-geth/trie/utils"
 )
 
 var (

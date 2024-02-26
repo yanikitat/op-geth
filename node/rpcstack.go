@@ -30,9 +30,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/rs/cors"
+	"github.com/yanikitat/op-geth/log"
+	"github.com/yanikitat/op-geth/rpc"
 )
 
 // httpConfig is the JSON-RPC/HTTP configuration.

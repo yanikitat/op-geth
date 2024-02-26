@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/console/prompt"
+	"github.com/yanikitat/op-geth/core"
+	"github.com/yanikitat/op-geth/eth"
+	"github.com/yanikitat/op-geth/eth/ethconfig"
+	"github.com/yanikitat/op-geth/internal/jsre"
+	"github.com/yanikitat/op-geth/miner"
+	"github.com/yanikitat/op-geth/node"
 )
 
 const (

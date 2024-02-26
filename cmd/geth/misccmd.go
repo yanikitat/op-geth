@@ -22,9 +22,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/urfave/cli/v2"
+	"github.com/yanikitat/op-geth/internal/version"
+	"github.com/yanikitat/op-geth/params"
 )
 
 var (

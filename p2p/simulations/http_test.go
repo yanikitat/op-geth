@@ -29,14 +29,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/mattn/go-colorable"
+	"github.com/yanikitat/op-geth/event"
+	"github.com/yanikitat/op-geth/log"
+	"github.com/yanikitat/op-geth/node"
+	"github.com/yanikitat/op-geth/p2p"
+	"github.com/yanikitat/op-geth/p2p/enode"
+	"github.com/yanikitat/op-geth/p2p/simulations/adapters"
+	"github.com/yanikitat/op-geth/rpc"
 	"golang.org/x/exp/slog"
 )
 

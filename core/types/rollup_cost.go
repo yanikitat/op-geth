@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/log"
+	"github.com/yanikitat/op-geth/params"
 )
 
 const (

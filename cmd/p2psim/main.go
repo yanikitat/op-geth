@@ -44,14 +44,14 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/urfave/cli/v2"
+	"github.com/yanikitat/op-geth/crypto"
+	"github.com/yanikitat/op-geth/internal/flags"
+	"github.com/yanikitat/op-geth/p2p"
+	"github.com/yanikitat/op-geth/p2p/enode"
+	"github.com/yanikitat/op-geth/p2p/simulations"
+	"github.com/yanikitat/op-geth/p2p/simulations/adapters"
+	"github.com/yanikitat/op-geth/rpc"
 )
 
 var client *simulations.Client

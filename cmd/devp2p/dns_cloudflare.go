@@ -22,10 +22,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cloudflare/cloudflare-go"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
 	"github.com/urfave/cli/v2"
+	"github.com/yanikitat/op-geth/log"
+	"github.com/yanikitat/op-geth/p2p/dnsdisc"
 )
 
 var (

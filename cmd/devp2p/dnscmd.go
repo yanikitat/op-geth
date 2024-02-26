@@ -25,12 +25,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/urfave/cli/v2"
+	"github.com/yanikitat/op-geth/accounts/keystore"
+	"github.com/yanikitat/op-geth/common"
+	"github.com/yanikitat/op-geth/console/prompt"
+	"github.com/yanikitat/op-geth/p2p/dnsdisc"
+	"github.com/yanikitat/op-geth/p2p/enode"
 )
 
 var (

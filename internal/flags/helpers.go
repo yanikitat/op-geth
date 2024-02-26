@@ -23,11 +23,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
+	"github.com/yanikitat/op-geth/internal/version"
+	"github.com/yanikitat/op-geth/log"
+	"github.com/yanikitat/op-geth/params"
 )
 
 // usecolor defines whether the CLI help should use colored output or normal dumb
